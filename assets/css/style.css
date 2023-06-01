@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "roboto";
+}
+
+.pantalla1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+.p1 {
+    display: flex;
+    width: 22%;
+    flex-direction: column;
+    background-color: #fff;
+
+    
+    
+}
+
+.contacto-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    outline: 1px solid #bec1bb;
+    height: 100px;
+}
+
+.maria{
+    display: flex;
+}
+
+.img1 {
+    justify-content: center;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+
+.nombre {
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.activahora {
+    margin-left: 0.5rem;
+    font-family: 'Roboto';
+    font-size: 10px;
+    font-weight: lighter;
+    text-align: center;
+    color: gray;
+}
+
+.icons i {
+    color: gray;
+    font-size: 16px;
+    padding: 0.3rem;
+}
+
+.chat{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    border-color: #bec1bb;
+    outline: 1px solid #bec1bb;
+    
+
+}
+
+.nuevo-chat{
+    
+    display: flex;
+    background: #a491d2;
+    color: #fff;
+    height: 40px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    outline: 2px solid #828485;
+}
+
+.contactos{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: 71px;
+
+}
+
+.personas{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'roboto';
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    outline: 1px solid #bec1bb;
+}
+
+.img{
+    display: flex;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+ .estado{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start
+ }
+
+.pantalla2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E8EBE4;
+    width: 78%;
+    flex-direction: column;
+    outline: 1px solid #bec1bb;
+    
+
+
+}
+
+
+.img2{
+    display: flex;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+
+}
+
+.tituloprincipal{
+    display: flex;
+    font-size: 45px;
+}
+
+.textoprincipal{
+    display: flex;
+    font-size: 16px;
+    margin-left: 0.5rem;
+    font-family: 'Roboto';
+    font-weight: lighter;
+    text-align: center;
+    color: #1b1f21;
+    justify-content: center;
+    
+}
